@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pepperoni Pizza Locations</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="index.html" onclick="document.location='index.html'">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="recipe.html" onclick="document.location='recipe.html'">Recipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" data-toggle="tab" href="location.html" onclick="document.location='location.html'">Locations</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="container">
+                    <h2>List of our favourite Pizza spots</h2>
+                    <ul>
+                        <li>Pizza Union Dalston</li>
+                        <li>Faros London</li>
+                        <li>Oi Vita Pizzeria</li>
+                        <li>Rudy's Neapolitan Pizza</li>
+                        <li>Purezza Camden</li>
+                    </ul>
+                </div>
+
+                <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+                    <iframe src="https://www.google.com/maps/search/Pizza/@51.5086639,-0.1417189,13.89z" frameborder="0"
+                      style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
